@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B4325B771B74E7C20085662C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B761B74E7C20085662C /* main.m */; };
 		B4325B7A1B74E7C20085662C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B791B74E7C20085662C /* AppDelegate.m */; };
-		B4325B7D1B74E7C20085662C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B7C1B74E7C20085662C /* ViewController.m */; };
+		B4325B7D1B74E7C20085662C /* TrumpListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B7C1B74E7C20085662C /* TrumpListViewController.m */; };
 		B4325B801B74E7C20085662C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4325B7E1B74E7C20085662C /* Main.storyboard */; };
 		B4325B821B74E7C20085662C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4325B811B74E7C20085662C /* Images.xcassets */; };
 		B4325B851B74E7C20085662C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4325B831B74E7C20085662C /* LaunchScreen.xib */; };
 		B4325B911B74E7C20085662C /* TrumpGramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B901B74E7C20085662C /* TrumpGramTests.m */; };
+		B4325B9C1B74E9000085662C /* TrumpPost.m in Sources */ = {isa = PBXBuildFile; fileRef = B4325B9B1B74E9000085662C /* TrumpPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		B4325B761B74E7C20085662C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4325B781B74E7C20085662C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4325B791B74E7C20085662C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4325B7B1B74E7C20085662C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4325B7C1B74E7C20085662C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4325B7B1B74E7C20085662C /* TrumpListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrumpListViewController.h; sourceTree = "<group>"; };
+		B4325B7C1B74E7C20085662C /* TrumpListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpListViewController.m; sourceTree = "<group>"; };
 		B4325B7F1B74E7C20085662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4325B811B74E7C20085662C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4325B841B74E7C20085662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B4325B8A1B74E7C20085662C /* TrumpGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4325B8F1B74E7C20085662C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4325B901B74E7C20085662C /* TrumpGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpGramTests.m; sourceTree = "<group>"; };
+		B4325B9A1B74E9000085662C /* TrumpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpPost.h; sourceTree = "<group>"; };
+		B4325B9B1B74E9000085662C /* TrumpPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				B4325B781B74E7C20085662C /* AppDelegate.h */,
 				B4325B791B74E7C20085662C /* AppDelegate.m */,
-				B4325B7B1B74E7C20085662C /* ViewController.h */,
-				B4325B7C1B74E7C20085662C /* ViewController.m */,
+				B4325B9A1B74E9000085662C /* TrumpPost.h */,
+				B4325B9B1B74E9000085662C /* TrumpPost.m */,
+				B4325B7B1B74E7C20085662C /* TrumpListViewController.h */,
+				B4325B7C1B74E7C20085662C /* TrumpListViewController.m */,
 				B4325B7E1B74E7C20085662C /* Main.storyboard */,
 				B4325B811B74E7C20085662C /* Images.xcassets */,
 				B4325B831B74E7C20085662C /* LaunchScreen.xib */,
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4325B7D1B74E7C20085662C /* ViewController.m in Sources */,
+				B4325B9C1B74E9000085662C /* TrumpPost.m in Sources */,
+				B4325B7D1B74E7C20085662C /* TrumpListViewController.m in Sources */,
 				B4325B7A1B74E7C20085662C /* AppDelegate.m in Sources */,
 				B4325B771B74E7C20085662C /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				B4325B961B74E7C20085662C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4325B971B74E7C20085662C /* Build configuration list for PBXNativeTarget "TrumpGramTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				B4325B991B74E7C20085662C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
